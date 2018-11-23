@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_prize"
+        android:title="prize"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/menu_item_apple"
+        android:icon="@mipmap/apple"
+        android:title="apple"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_item_banana"
+        android:icon="@mipmap/banana"
+        android:title="banana"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_item_grape"
+        android:icon="@mipmap/grape"
+        android:title="grape"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_item_orange"
+        android:icon="@mipmap/grape"
+        android:title="orange"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_item_strawberry"
+        android:icon="@mipmap/strawberry"
+        android:title="strawberry"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_item_watermelon"
+        android:icon="@mipmap/watermelon"
+        android:title="watermelon"
+        app:showAsAction="never"/>
+
+</menu>
